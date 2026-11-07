@@ -2,7 +2,7 @@
 .DS_Store
 
 # Xcode build products
-.build/
+.build*/
 DerivedData/
 build/
 *.xcuserstate
