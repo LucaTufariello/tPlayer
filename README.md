@@ -26,8 +26,9 @@ out of the way.
 - **Automatic artwork.** A frame is grabbed from each film on import and cached
   as its thumbnail. Titles and years are inferred from the filename, and can be
   corrected with *Rename*.
-- **A player that stays out of the way.** Space to play or pause, arrow keys to
-  seek and adjust volume, `F` for fullscreen, `Esc` to leave.
+- **A player that stays out of the way.** Space to play or pause, left and right
+  to seek ten seconds, up and down for volume, `F` for fullscreen, `Esc` to
+  leave.
 - **Light and dark.** Follow the system, or pin the app to either appearance
   from the header.
 - **Nothing leaves your Mac.** No accounts, no network requests, no telemetry.
@@ -88,8 +89,8 @@ Everything the app creates stays under one folder:
 └── Thumbnails/       # cached artwork
 ```
 
-*File → Reveal Library Folder* (or the same item in the app menu) opens it in
-Finder. Deleting the folder resets the app to an empty library.
+*tPlayer → Reveal Library Folder* in the menu bar opens it in Finder. Deleting
+the folder resets the app to an empty library.
 
 ## Project layout
 
