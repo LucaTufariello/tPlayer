@@ -1,6 +1,6 @@
 name: tPlayer
 options:
-  bundleIdPrefix: com.lucatufariello
+  bundleIdPrefix: com.tplayer
   deploymentTarget:
     macOS: "14.0"
   createIntermediateGroups: true
@@ -23,7 +23,7 @@ targets:
       - path: tPlayer
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.lucatufariello.tplayer
+        PRODUCT_BUNDLE_IDENTIFIER: com.tplayer.app
         PRODUCT_NAME: tPlayer
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         MARKETING_VERSION: "1.0"
