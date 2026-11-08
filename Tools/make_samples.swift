@@ -127,10 +127,9 @@ func drawFrame(_ ctx: CGContext, sample: Sample, frame: Int) {
         ctx.fillEllipse(in: CGRect(x: x, y: y, width: r, height: r))
     }
 
-    // Title block
+    // Wordmark only. The app draws the film's title over the artwork itself,
+    // so baking one into the frame would collide with it in the library grid.
     drawText("tPLAYER ORIGINAL", in: ctx, at: CGPoint(x: 82, y: 648), size: 11, color: color(0xF5EFE4, 0.46), tracking: 2.4)
-    drawText(sample.title, in: ctx, at: CGPoint(x: 78, y: 128), size: 62, color: color(0xF5EFE4, 0.96), tracking: -0.8)
-    drawText(sample.subtitle, in: ctx, at: CGPoint(x: 82, y: 96), size: 17, color: color(0xF5EFE4, 0.58), tracking: 0.4)
 
     // Frame border
     ctx.setStrokeColor(color(0xFFFFFF, 0.10))
